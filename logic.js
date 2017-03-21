@@ -7,3 +7,10 @@ var y = 8;
 
 // false
 
+var str = "" 
+var msg = "haha!" 
+var isFunny = "false" 
+
+!((str || msg) && isFunny); 
+
+// false
